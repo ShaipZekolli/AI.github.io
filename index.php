@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta meta-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Fjali e plotë apo e paplotë? Pyete trurin. </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+</head>
+<body>
+	<h1>Fjali e plotë apo e paplotë? Pyete trurin.</h1>
+	<div id="rslts">Trajnim...ju lutem prisni.</div>
+	<hr>
+
+	<label for="textfield">
+	Shkruani fjalinë tuaj këtu:</label>
+	<input type="text" name="textfield" id="textfield">
+	<input onClick="execute(document.getElementById('textfield').value)" type="submit" name="submit" id="submit" value="Submit">
+	
+	
+	<script src="brain.js"></script>
+	<script src="training-data.js"></script>
+	<script src="script.js"></script>
+			
+	
+<br>
+	
+</body>
+	
+</html>
